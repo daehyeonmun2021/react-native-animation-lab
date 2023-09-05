@@ -1,16 +1,16 @@
-import {createStackNavigator} from '@react-navigation/stack';
-import {HomeScreen} from './home';
+import { createStackNavigator } from '@react-navigation/stack';
+import { PixelatedImageScreen } from './pixelated-image';
 
 export type RootStackParamList = {
-  Home: undefined;
+  PixelatedImageScreen: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
 
 export const RootStack = () => {
   return (
-    <Stack.Navigator screenOptions={{headerShown: false}}>
-      <Stack.Screen name="Home" component={HomeScreen} />
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="PixelatedImageScreen" component={PixelatedImageScreen} />
     </Stack.Navigator>
   );
 };

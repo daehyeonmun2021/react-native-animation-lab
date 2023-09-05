@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <NavigationContainer>
       <GestureHandlerRootView style={{ flex: 1 }}>
-        <StacksProvider spacing={0}>
+        <StacksProvider spacing={4}>
           <RootStack />
         </StacksProvider>
       </GestureHandlerRootView>
