@@ -2,7 +2,7 @@
 
 Beautiful animations in React Native created by Daehyeon Mun.
 </br>
-You can watch my animation tutorial videos on [React Native Animation Lab](https://www.youtube.com/@ReactNativeAnimationLab-kl7ys/about).
+You can watch my animation tutorial videos on [React Native Animation Lab](https://www.youtube.com/@RNAnimationLab/featured).
 </br>
 </br>
 
