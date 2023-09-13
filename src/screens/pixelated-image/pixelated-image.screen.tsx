@@ -13,7 +13,7 @@ export const PixelatedImageScreen = () => {
     'https://www.vincentvangogh.org/images/paintings/self-portrait-with-bandaged-ear-and-pipe.jpg',
   );
   if (!image) {
-    return <></>;
+    return null;
   }
 
   const particles = makeImageParticles(image, 35, 15, stageWidth, stageHeight);
