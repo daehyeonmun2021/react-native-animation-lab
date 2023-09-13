@@ -1451,13 +1451,6 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@mobily/stacks@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@mobily/stacks/-/stacks-2.2.2.tgz#dcfebb0c4fcec3722af085aeda35e9f6b79f8b68"
-  integrity sha512-pl5/sImItIMGWUzk/TKYuFG/zBJTfJKIT16O50FpmQBVCaC/JzLmcXjb5PgwbtoIUqhiWhdQhvjZCDm5mkShDA==
-  dependencies:
-    wonka "~6.1.0"
-
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"
@@ -7446,11 +7439,6 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
-
-wonka@~6.1.0:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/wonka/-/wonka-6.1.2.tgz#2c66fa5b26a12f002a03619b988258313d0b5352"
-  integrity sha512-zNrXPMccg/7OEp9tSfFkMgTvhhowqasiSHdJ3eCZolXxVTV/aT6HUTofoZk9gwRbGoFey/Nss3JaZKUMKMbofg==
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
