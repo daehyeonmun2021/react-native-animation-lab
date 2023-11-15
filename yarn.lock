@@ -1775,12 +1775,12 @@
     color "^4.2.3"
     warn-once "^0.1.0"
 
-"@shopify/react-native-skia@0.1.202":
-  version "0.1.202"
-  resolved "https://registry.yarnpkg.com/@shopify/react-native-skia/-/react-native-skia-0.1.202.tgz#ffc39eddbb7c8425a5c4ebf06cadff63fb5236ca"
-  integrity sha512-UwobGgql+6hL1R8JWcwvysljBNqA2m7KLfnGaJnYTSHhqlJUAIMZJ0zuel/4FxxUH60oe7JLl+SRsKBkuI23kg==
+"@shopify/react-native-skia@0.1.218":
+  version "0.1.218"
+  resolved "https://registry.yarnpkg.com/@shopify/react-native-skia/-/react-native-skia-0.1.218.tgz#c057ba5420d2cb831c7ca292e9383f1776cf749f"
+  integrity sha512-WYFrCZ6wINry0s7lEoHm/apueGihqTbSNJJjAVh82JZAZUvVkNHdQ1qiY1qlwoaYc8Q2EURHl+SGq9GvOTVTEQ==
   dependencies:
-    canvaskit-wasm "0.38.0"
+    canvaskit-wasm "0.38.2"
     react-reconciler "^0.27.0"
 
 "@sideway/address@^4.1.3":
@@ -2725,10 +2725,10 @@ caniuse-lite@^1.0.30001517:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001525.tgz#d2e8fdec6116ffa36284ca2c33ef6d53612fe1c8"
   integrity sha512-/3z+wB4icFt3r0USMwxujAqRvaD/B7rvGTsKhbhSQErVrJvkZCLhgNLJxU8MevahQVH6hCU9FsHdNUFbiwmE7Q==
 
-canvaskit-wasm@0.38.0:
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/canvaskit-wasm/-/canvaskit-wasm-0.38.0.tgz#83e6c46f3015c2ff3f6503157f47453af76a7be7"
-  integrity sha512-ZEG6lucpbQ4Ld+mY8C1Ng+PMLVP+/AX02jS0Sdl28NyMxuKSa9uKB8oGd1BYp1XWPyO2Jgr7U8pdyjJ/F3xR5Q==
+canvaskit-wasm@0.38.2:
+  version "0.38.2"
+  resolved "https://registry.yarnpkg.com/canvaskit-wasm/-/canvaskit-wasm-0.38.2.tgz#b6c2be236670fd0f18977b9026652b2c0e201fee"
+  integrity sha512-ieRb6DO4yL91qUfyRgmyhp2Hi1KmQ9lIMfKacxHVlfp/CpKCkzgAxRGUbCsJFzwLKjs9fufGrIyvnzEYRwm1XQ==
 
 chalk@^2.4.2:
   version "2.4.2"
@@ -6303,10 +6303,10 @@ react-native-gesture-handler@2.12.1:
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
-react-native-reanimated@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.4.2.tgz#744154fead6d8d31d5bd9ac617d8c84d74a6f697"
-  integrity sha512-FbtG+f1PB005vDTJSv4zAnTK7nNXi+FjFgbAM5gOzIZDajfph2BFMSUstzIsN8T77+OKuugUBmcTqLnQ24EBVg==
+react-native-reanimated@3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.5.4.tgz#a6c2b0c43b6dad246f5d276213974afedb8e3fc7"
+  integrity sha512-8we9LLDO1o4Oj9/DICeEJ2K1tjfqkJagqQUglxeUAkol/HcEJ6PGxIrpBcNryLqCDYEcu6FZWld/FzizBIw6bg==
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
