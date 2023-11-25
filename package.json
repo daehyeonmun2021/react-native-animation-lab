@@ -4,16 +4,17 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios --simulator \"iPhone 14 Pro\"",
+    "ios": "react-native run-ios --simulator=\"iPhone 15 Pro Max\"",
     "lint": "eslint .",
     "start": "react-native start",
+    "start:clean": "react-native start --reset-cache",
     "test": "jest",
     "postinstall": "cd ios && pod install && cd .."
   },
   "dependencies": {
     "@react-navigation/native": "6.1.7",
     "@react-navigation/stack": "6.3.17",
-    "@shopify/react-native-skia": "0.1.218",
+    "@shopify/react-native-skia": "0.1.222",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-gesture-handler": "2.12.1",
@@ -22,9 +23,11 @@
     "react-native-screens": "3.25.0"
   },
   "devDependencies": {
-    "@babel/core": "7.20.0",
-    "@babel/preset-env": "7.20.0",
-    "@babel/runtime": "7.20.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "babel-jest": "^29.2.1",
+    "babel-plugin-module-resolver": "^5.0.0",
     "@react-native/eslint-config": "0.72.2",
     "@react-native/metro-config": "0.72.11",
     "@tsconfig/react-native": "3.0.0",
@@ -35,8 +38,6 @@
     "@types/react-test-renderer": "18.0.0",
     "@typescript-eslint/eslint-plugin": "6.2.0",
     "@typescript-eslint/parser": "6.2.0",
-    "babel-jest": "29.2.1",
-    "babel-plugin-module-resolver": "5.0.0",
     "eslint": "8.19.0",
     "eslint-config-prettier": "8.9.0",
     "eslint-import-resolver-typescript": "3.5.5",
