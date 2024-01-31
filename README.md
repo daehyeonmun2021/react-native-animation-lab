@@ -1,4 +1,4 @@
-# Awesome React Native
+# React Native Animation Lab
 
 Beautiful animations in React Native created by Daehyeon Mun.
 </br>
